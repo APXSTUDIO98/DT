@@ -1,0 +1,19 @@
+---By APX STUDIO(Aryan Pathare)-----
+
+Audio/scripts - (personal assets from) APX BATTLEFIELD, Flappy APX, APX BATTLEFIELD 2 
+Player- https://www.gameart2d.com/the-boy---free-sprites.html
+Zombie- https://www.gameart2d.com/the-zombies-free-sprites.html
+wood-https://images.app.goo.gl/B5NkKf4z3ZyG6cS36
+board-https://images.app.goo.gl/dMGcAVshmYor1i5x6
+chalkboard- https://images.app.goo.gl/Stf4thRnnzeGXEx5A
+pencil-https://images.app.goo.gl/i9yCo4zJUCVUJKFS6
+graduation cap-https://images.app.goo.gl/5MSRcPnfFpBbH2su7
+coffee cup-https://images.app.goo.gl/wi2y6m1rn7S6eFs8A
+
+Package used:
+New Input System
+2D Package 
+Cinemachine
+TextMeshPro
+
+Recommended YT tutorial to follow (GD titan) https://www.youtube.com/watch?v=4eOCTyuOQYo&list=PL0WgRP7BtOezfnz3lPmbs1X6dOu1YsbPh
