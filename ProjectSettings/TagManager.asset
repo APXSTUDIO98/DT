@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Spike
   - door
+  - Platform
   layers:
   - Default
   - TransparentFX

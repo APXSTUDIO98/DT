@@ -8,48 +8,22 @@ public class PlayerCollision : MonoBehaviour
     {
       
     }
-    //public void OnCollisionEnter2D(Collision2D collision)
-    //{
-    //    if (collision.transform.tag == "Enemy")
-    //    {
-    //        Debug.Log("a");
-    //        HealthManager.health = HealthManager.health --;
-    //        if (HealthManager.health <= 0)
-    //        {
-    //            Debug.Log("a");
-    //            GameManager.isGameOver = true;
-    //            AudioManager.instance.Play("gameover");
-    //            //   gameObject.SetActive(false);
-    //        }
-    //        else
-    //        {
 
-    //            AudioManager.instance.Play("oof");
-    //            StartCoroutine(GetHurt());
-    //        }
-    //    }
-    //    if (collision.transform.tag == "Spike")
-    //    {
-    //        HealthManager.health = HealthManager.health - 3;
-    //        if (HealthManager.health <= 0)
-    //        {
-    //            GameManager.isGameOver = true;
-    //            AudioManager.instance.Play("gameover");
-    //            //   gameObject.SetActive(false);
-    //        }
-    //        else
-    //        {
-    //            AudioManager.instance.Play("oof");
-    //            StartCoroutine(GetHurt());
-    //        }
-    //    }
-    //    if (collision.transform.tag == "door")
-    //    {
-    //        Debug.Log("work");
-    //        AudioManager.instance.Play("levelcomplete");
-    //        GameManager.isGamefinish = true;
-    //    }
-    //}
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Platform")
+        {
+            Debug.Log("testo");
+            this.transform.parent = collision.transform;
+        }
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Platform")
+        {
+            this.transform.parent = null;
+        }
+    }
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.transform.tag == "Enemy")
